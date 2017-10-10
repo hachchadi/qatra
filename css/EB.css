@@ -1,0 +1,111 @@
+.navbar
+{
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.navbar-inverse
+{
+    width: auto;
+    background: #F7E4C5;
+    border: 3px solid #E73A38;
+    border-radius: 30px;
+}
+
+.navbar-inverse .navbar-brand
+{
+    margin-right: 20px;
+    text-align: center;
+    color: #E73A38;
+}
+.navbar-inverse .navbar-brand:focus, 
+.navbar-inverse .navbar-brand:hover
+{
+    color: #D11C16;
+}
+.navbar-inverse .navbar-brand div i{
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+}
+.navbar-inverse .navbar-brand div:hover i
+{
+    transform: rotateY(360deg) scale(1.1);
+}
+.navbar-inverse .navbar-brand div
+{
+    float: left;
+    position: relative;
+    top: -55px;
+    left: -18px;
+    z-index: 9999;
+    background: #fff;
+    padding: 5px;
+    font-size: 25px;
+    
+    border: 3px solid #E73A38;
+    border-radius: 100%;
+    width: 130px;
+    height: 130px;
+}
+.navbar-inverse .navbar-brand span
+{
+    
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a
+{
+    color: black;
+    font-weight: bold;
+    
+}
+.navbar-inverse .navbar-nav>.active>a
+{
+    background: #E73A38;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+}
+
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover
+{
+    background: #E73A38;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover
+{
+    background: #E73A38;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.6);
+}
+
+.navbar-inverse .navbar-toggle
+{
+    background: #E73A38;
+}
+.navbar-inverse .navbar-toggle:focus, 
+.navbar-inverse .navbar-toggle:hover
+{
+    background: #D11C16
+}
+
+/************** **************/
+.carousel-inner>.item,
+.carousel-inner>.item.active,
+.carousel-inner>.item>a>img, 
+.carousel-inner>.item>img
+{
+    border-radius: 30px 30px 0 0;
+}
+
+.carousel-control.right
+{
+    border-radius: 0 30px 0 0;
+}
+
+.carousel-control.left
+{
+    border-radius: 30px 0 0 0;
+}
